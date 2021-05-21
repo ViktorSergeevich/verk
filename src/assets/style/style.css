@@ -1,0 +1,52 @@
+*, *::after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 15px 0;
+    text-indent: 25px;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+.page__header {
+    margin-top: 20px;
+}
+
+.page__content {
+    padding-bottom: 20px;
+}
+
+.page__image {
+    height: 200px;
+}
+
+.page__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.burder {
+    display: none;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.burder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
